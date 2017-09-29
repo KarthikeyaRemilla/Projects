@@ -2,7 +2,7 @@
 # Defining the calculator's logic 
 
 def calculator():
-    print("Hello! Welcome to Py Calculator. Following operators are available for you: \n 1. Addition(+) 2. Subtraction(-) 3. Multiplication (*) 4. Division(/) 5. Remainder(%)")
+    print("Hello! Welcome to Py Calculator. Following operations are available for you: \n 1. Addition(+) 2. Subtraction(-) 3. Multiplication (*) 4. Division(/) 5. Remainder(%)")
     choice = int(input("Enter your choice now: "))
     a = float(input("Enter operand a : "))
     b = float(input("Enter operand b : "))
