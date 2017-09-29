@@ -1,4 +1,6 @@
 
+# Defining the calculator's logic 
+
 def calculator():
     print("Hello! Welcome to Py Calculator. Following operators are available for you: \n 1. Addition(+) 2. Subtraction(-) 3. Multiplication (*) 4. Division(/) 5. Remainder(%)")
     choice = int(input("Enter your choice now: "))
@@ -26,6 +28,7 @@ def calculator():
         if(decision == 'q' or decision == 'Q'):
             print("Goodbye")
 
+# Calling the function            
 calculator()        
     
         
